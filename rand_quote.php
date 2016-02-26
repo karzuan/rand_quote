@@ -179,7 +179,7 @@ function kk_rand_phrase_short () {
 }   while ($result[0]==NULL && $result[1]==NULL);
 
     return '<blockquote>
-<p>' . $result[0] . '</p>
+<p><strong><<</strong> ' . $result[0] . ' <strong>>></strong></p>
 <footer>
 — <cite>' . $result[1] . '</cite>
 </footer>
